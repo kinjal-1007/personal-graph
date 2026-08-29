@@ -6,7 +6,7 @@ No frontend. No paid APIs. No HTTP server. Everything runs on your machine.
 
 ---
 
-## Use this for your own stories
+## Getting started
 
 This repo ships with no journal data. To make it yours:
 
@@ -199,5 +199,3 @@ Everything that could contain your personal experiences is excluded from git via
 - `entries.json` — your raw journal entries
 - `graph/graph.json` — the relationship graph built from them
 - `storage/chroma_store/` — the vector embeddings of your entries
-
-If you fork or clone this repo, only the code is shared — never your stories. Nothing here calls out to any external service either: embeddings run locally (`all-MiniLM-L6-v2`), the vector store and graph are local files, and the MCP server only talks to your local Claude Desktop. Double-check `git status` before committing if you ever rename or restructure these files, since a rename can slip past a path-based `.gitignore` entry.
