@@ -1,0 +1,23 @@
+# Private journal data — this is YOUR data, never commit it
+entries.json
+graph/graph.json
+storage/chroma_store/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Env / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
